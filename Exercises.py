@@ -95,4 +95,14 @@ for el in my_list:
         print(num, index)
     index += 1
 
+# otra manera de resolverlo
+
+for i in range(len(my_list)):
+    if my_list[i] == num:
+        # si te refieres al indice de un array pues este empieza en 0, si te refieres simplemente a la posicion entonces el primer elemento es la posicion 1 por lo que
+        # seria i + 1
+        print(num, i)
+
+
+
 
